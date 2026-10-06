@@ -1,0 +1,30 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      SERPAPI_KEY: ${SERPAPI_KEY:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-gemini}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      MAX_SEARCHES: ${MAX_SEARCHES:-12}
+      MAX_FOLLOWUP_ROUNDS: ${MAX_FOLLOWUP_ROUNDS:-2}
+      MAX_OFFERS: ${MAX_OFFERS:-5}
+      SEARCH_CACHE_SECONDS: ${SEARCH_CACHE_SECONDS:-3600}
+      ENABLE_REPLAY: ${ENABLE_REPLAY:-true}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5177,http://127.0.0.1:5177}
+      DATABASE_PATH: /workspace/data/fitproof.sqlite3
+    volumes:
+      - ./data:/workspace/data
+    ports:
+      - "8017:8017"
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    depends_on:
+      - backend
+    ports:
+      - "5177:80"

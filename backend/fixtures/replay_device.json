@@ -1,0 +1,13 @@
+{
+  "id": "replay_device",
+  "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T480/ThinkPad_T480_Spec.PDF",
+  "title": "ThinkPad T480 specification",
+  "publisher": "Lenovo",
+  "source_type": "manufacturer",
+  "retrieved_at": "2026-10-06T16:32:30.592855+00:00",
+  "text": "ThinkPad T480\n32GB max / 2400MHz DDR4, dual-channel capable, two DDR4 SO-DIMM sockets * System clocks down for processors with lower memory controller",
+  "content_hash": "bcbd104d57bc982a59349ef782a7f83a60538210867e13faff143e47853b31b5",
+  "origin": "replay",
+  "fetch_status": "available",
+  "search_id": null
+}

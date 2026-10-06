@@ -1,0 +1,169 @@
+{
+  "replay_device": [
+    {
+      "subject": "Lenovo ThinkPad T480",
+      "field": "identity",
+      "value": "Lenovo ThinkPad T480",
+      "evidence_span": "ThinkPad T480",
+      "related_subject": null
+    },
+    {
+      "subject": "Lenovo ThinkPad T480",
+      "field": "memory_generation",
+      "value": "DDR4",
+      "evidence_span": "32GB max / 2400MHz DDR4, dual-channel capable, two DDR4 SO-DIMM sockets * System clocks down for processors with lower memory controller",
+      "related_subject": null
+    },
+    {
+      "subject": "Lenovo ThinkPad T480",
+      "field": "memory_form_factor",
+      "value": "SO-DIMM",
+      "evidence_span": "32GB max / 2400MHz DDR4, dual-channel capable, two DDR4 SO-DIMM sockets * System clocks down for processors with lower memory controller",
+      "related_subject": null
+    },
+    {
+      "subject": "Lenovo ThinkPad T480",
+      "field": "maximum_capacity_gb",
+      "value": 32,
+      "evidence_span": "32GB max / 2400MHz DDR4, dual-channel capable, two DDR4 SO-DIMM sockets * System clocks down for processors with lower memory controller",
+      "related_subject": null
+    },
+    {
+      "subject": "Lenovo ThinkPad T480",
+      "field": "memory_slots",
+      "value": 2,
+      "evidence_span": "32GB max / 2400MHz DDR4, dual-channel capable, two DDR4 SO-DIMM sockets * System clocks down for processors with lower memory controller",
+      "related_subject": null
+    },
+    {
+      "subject": "Lenovo ThinkPad T480",
+      "field": "memory_speed_mts",
+      "value": 2400,
+      "evidence_span": "32GB max / 2400MHz DDR4, dual-channel capable, two DDR4 SO-DIMM sockets * System clocks down for processors with lower memory controller",
+      "related_subject": null
+    }
+  ],
+  "replay_good": [
+    {
+      "subject": "KCP432SD8/16",
+      "field": "identity",
+      "value": "KCP432SD8/16",
+      "evidence_span": "KCP432SD8/16",
+      "related_subject": null
+    },
+    {
+      "subject": "KCP432SD8/16",
+      "field": "memory_generation",
+      "value": "DDR4",
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered SODIMM Part Number: KCP432SD8/16 Part Number: KCP432SD8/16 DDR4 3200MT/s Non-ECC Unbuffered SODIMM CL22 2RX8 1.2V 260-pin 8Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KCP432SD8/16",
+      "field": "memory_form_factor",
+      "value": "SO-DIMM",
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered SODIMM Part Number: KCP432SD8/16 Part Number: KCP432SD8/16 DDR4 3200MT/s Non-ECC Unbuffered SODIMM CL22 2RX8 1.2V 260-pin 8Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KCP432SD8/16",
+      "field": "module_capacity_gb",
+      "value": 16,
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered SODIMM Part Number: KCP432SD8/16 Part Number: KCP432SD8/16 DDR4 3200MT/s Non-ECC Unbuffered SODIMM CL22 2RX8 1.2V 260-pin 8Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KCP432SD8/16",
+      "field": "memory_speed_mts",
+      "value": 3200,
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered SODIMM Part Number: KCP432SD8/16 Part Number: KCP432SD8/16 DDR4 3200MT/s Non-ECC Unbuffered SODIMM CL22 2RX8 1.2V 260-pin 8Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KCP432SD8/16",
+      "field": "memory_ecc",
+      "value": "non-ECC",
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered SODIMM Part Number: KCP432SD8/16 Part Number: KCP432SD8/16 DDR4 3200MT/s Non-ECC Unbuffered SODIMM CL22 2RX8 1.2V 260-pin 8Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KCP432SD8/16",
+      "field": "memory_voltage_v",
+      "value": 1.2,
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered SODIMM Part Number: KCP432SD8/16 Part Number: KCP432SD8/16 DDR4 3200MT/s Non-ECC Unbuffered SODIMM CL22 2RX8 1.2V 260-pin 8Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KCP432SD8/16",
+      "field": "memory_buffering",
+      "value": "unbuffered",
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered SODIMM Part Number: KCP432SD8/16 Part Number: KCP432SD8/16 DDR4 3200MT/s Non-ECC Unbuffered SODIMM CL22 2RX8 1.2V 260-pin 8Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KCP432SD8/16",
+      "field": "manufacturer_listed",
+      "value": true,
+      "evidence_span": "KCP432SD8/16",
+      "related_subject": "Lenovo ThinkPad T480"
+    }
+  ],
+  "replay_bad": [
+    {
+      "subject": "KVR32N22S8/16",
+      "field": "identity",
+      "value": "KVR32N22S8/16",
+      "evidence_span": "KVR32N22S8/16",
+      "related_subject": null
+    },
+    {
+      "subject": "KVR32N22S8/16",
+      "field": "memory_generation",
+      "value": "DDR4",
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered DIMM Part Number: KVR32N22S8/16 Part Number: KVR32N22S8/16 DDR4 3200MT/s Non-ECC Unbuffered DIMM CL22 1RX8 1.2V 288-pin 16Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KVR32N22S8/16",
+      "field": "memory_form_factor",
+      "value": "DIMM",
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered DIMM Part Number: KVR32N22S8/16 Part Number: KVR32N22S8/16 DDR4 3200MT/s Non-ECC Unbuffered DIMM CL22 1RX8 1.2V 288-pin 16Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KVR32N22S8/16",
+      "field": "module_capacity_gb",
+      "value": 16,
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered DIMM Part Number: KVR32N22S8/16 Part Number: KVR32N22S8/16 DDR4 3200MT/s Non-ECC Unbuffered DIMM CL22 1RX8 1.2V 288-pin 16Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KVR32N22S8/16",
+      "field": "memory_speed_mts",
+      "value": 3200,
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered DIMM Part Number: KVR32N22S8/16 Part Number: KVR32N22S8/16 DDR4 3200MT/s Non-ECC Unbuffered DIMM CL22 1RX8 1.2V 288-pin 16Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KVR32N22S8/16",
+      "field": "memory_ecc",
+      "value": "non-ECC",
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered DIMM Part Number: KVR32N22S8/16 Part Number: KVR32N22S8/16 DDR4 3200MT/s Non-ECC Unbuffered DIMM CL22 1RX8 1.2V 288-pin 16Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KVR32N22S8/16",
+      "field": "memory_voltage_v",
+      "value": 1.2,
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered DIMM Part Number: KVR32N22S8/16 Part Number: KVR32N22S8/16 DDR4 3200MT/s Non-ECC Unbuffered DIMM CL22 1RX8 1.2V 288-pin 16Gbit",
+      "related_subject": null
+    },
+    {
+      "subject": "KVR32N22S8/16",
+      "field": "memory_buffering",
+      "value": "unbuffered",
+      "evidence_span": "16GB DDR4 3200MT/s Non-ECC Unbuffered DIMM Part Number: KVR32N22S8/16 Part Number: KVR32N22S8/16 DDR4 3200MT/s Non-ECC Unbuffered DIMM CL22 1RX8 1.2V 288-pin 16Gbit",
+      "related_subject": null
+    }
+  ]
+}
